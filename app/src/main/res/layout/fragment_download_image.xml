@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.addy1397.matrixacademy.DownloadImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton_back"
+            android:layout_width="39dp"
+            android:layout_height="34dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:layout_constraintBottom_toTopOf="@+id/imageView_show"
+            app:layout_constraintStart_toStartOf="@+id/imageView_show"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton_download"
+            android:layout_width="46dp"
+            android:layout_height="33dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:layout_constraintBottom_toTopOf="@+id/imageView_show"
+            app:layout_constraintEnd_toEndOf="@+id/imageView_show"
+            app:srcCompat="@drawable/ic_file_download_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_show"
+            android:layout_width="251dp"
+            android:layout_height="251dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:src="@color/cardview_shadow_end_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "274776851691",
+    "firebase_url": "https://matrixacademy-74ef5.firebaseio.com",
+    "project_id": "matrixacademy-74ef5",
+    "storage_bucket": "matrixacademy-74ef5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274776851691:android:1b24fd27051c33ae",
+        "android_client_info": {
+          "package_name": "com.addy1397.matrixacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274776851691-nn07e7tnl9m5n723hujtes4708jjj6qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.addy1397.matrixacademy",
+            "certificate_hash": "7c481bd1afd0cc6d413c5e8af4a0f654987d3288"
+          }
+        },
+        {
+          "client_id": "274776851691-qq0umfl6e43nu3j0lje3ao3b4283m9u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTSYUcpVQwSUlElRQOmDVr5kkvPvHDnhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274776851691-qq0umfl6e43nu3j0lje3ao3b4283m9u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

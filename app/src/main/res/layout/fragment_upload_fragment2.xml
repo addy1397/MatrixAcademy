@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.addy1397.matrixacademy.UploadFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton_chooseImage"
+            android:layout_width="227dp"
+            android:layout_height="227dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/image33"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText_uploadTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="@string/title"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton_chooseImage" />
+
+        <TextView
+            android:id="@+id/textView_info"
+            android:layout_width="186dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/add_resonable_title_with_page_no"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/editText_uploadTitle" />
+
+        <Button
+            android:id="@+id/button_Upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/upload"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton_chooseImage"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton_chooseImage"
+            app:layout_constraintTop_toBottomOf="@+id/button_choose_batch_upload" />
+
+        <Button
+            android:id="@+id/button_upload_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/upload_type"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton_chooseImage"
+            app:layout_constraintStart_toStartOf="@+id/imageButton_chooseImage"
+            app:layout_constraintTop_toBottomOf="@+id/textView_info" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imageView3"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            app:layout_constraintStart_toStartOf="@+id/editText_uploadTitle"
+            app:layout_constraintTop_toBottomOf="@+id/editText_uploadTitle"
+            app:srcCompat="@drawable/ic_info_black_24dp" />
+
+        <Button
+            android:id="@+id/button_choose_batch_upload"
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choose_batch"
+            app:layout_constraintEnd_toEndOf="@+id/button_upload_type"
+            app:layout_constraintStart_toStartOf="@+id/button_upload_type"
+            app:layout_constraintTop_toBottomOf="@+id/button_upload_type" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
